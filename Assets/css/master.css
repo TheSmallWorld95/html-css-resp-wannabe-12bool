@@ -1,0 +1,14 @@
+#lezioni {
+  text-align: center;
+}
+
+#lezioni img {
+  /* per centrare orizzontalmente */
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+img {
+  height: 200px;
+}
