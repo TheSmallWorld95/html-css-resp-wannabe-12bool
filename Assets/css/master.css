@@ -1,7 +1,14 @@
-#lezioni {
-  text-align: center;
+
+
+#lezioni, #why {
+  background-color: #F2F2CD;
 }
 
+#lezioni, #why, #steps {
+  padding: 20px;
+}
+
+/* IMMAGINI */
 #lezioni img {
   /* per centrare orizzontalmente */
   display: block;
@@ -9,6 +16,44 @@
   margin-left: auto;
 }
 
+#why img {
+  background-color: #428bca;
+  border-radius: 50%;
+  padding: 30px
+}
+
 img {
-  height: 200px;
+  height: 100px;
+  margin: 20px;
+}
+
+
+
+@media all and (min-width: 768px) {
+  img {
+    height: 150px;
+  }
+
+}
+
+@media all and (min-width: 992px) {
+  img {
+    height: 200px;
+  }
+}
+
+/* IMMAGINI */
+
+/* UTILITY */
+
+#lezioni {
+  text-align: center;
+}
+
+#steps {
+  text-align: center;
+}
+
+#why {
+  text-align: center;
 }
